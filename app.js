@@ -5,6 +5,12 @@ const client = new Discord.Client();
 
 const token = process.env.token;
 
+
+
+const config = require('./config.json');
+
+
+
 const PREFIX = ">>"
 
 client.on("ready", () => {
